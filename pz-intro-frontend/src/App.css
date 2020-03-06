@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 
 .no-margin {
   margin-top: 0;
@@ -20,13 +9,13 @@
   margin-left: 0;
   margin-right: 0;
 }
-.brown-border{
+.container{
   border: 2px solid 	darkcyan;
   width: fit-content;
   min-width: 10%;
   text-align: left;
-  align-items: center;
   margin: auto;
+  margin-top: 5px;
   border-radius: 10px;
 }
 .header-underscore{

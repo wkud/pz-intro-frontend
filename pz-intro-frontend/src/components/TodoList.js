@@ -1,33 +1,27 @@
-import React, { Component } from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import Task from './Task';
+import TaskContext from '../contexts/TaskContext';
 
-class TodoList extends Component {
-  static defaultProps = {
-    title: 'Hejo',
-    tasks: [
-      { id: 1, text: 'lol' },
-      { id: 2, text: 'hejo' },
-      { id: 3, text: 'kappa' }
-    ]
-  };
-  static propTypes = {
-    title: PropTypes.string.isRequired,
-    tasks: PropTypes.array.isRequired
-  };
+function TodoList(props) {
+  const { tasks } = useContext(TaskContext);
+  const { title } = props;
 
-  render() {
-    const { title, tasks } = this.props;
-
-    return (
-      <div className='brown-border'>
-        <h2 className='no-margin header-underscore'>{title}</h2>
-        {tasks.map(task => (
-          <Task className='allign-left' key={task.id} text={task.text} />
-        ))}
-      </div>
-    );
-  }
+  console.log(tasks);
+  return (
+    <div className='container small-margin'>
+      <h2 className='no-margin header-underscore'>{title}</h2>
+      {tasks.map(task => (
+        <Task key={task.id} text={task.text} />
+      ))}
+    </div>
+  );
 }
+TodoList.defaultProps = {
+  title: 'My List'
+};
+TodoList.propTypes = {
+  title: PropTypes.string.isRequired
+};
 
 export default TodoList;
