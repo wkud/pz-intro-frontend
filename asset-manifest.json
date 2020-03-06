@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pz-intro-frontend/static/css/main.e95a4c62.chunk.css",
+    "main.js": "/pz-intro-frontend/static/js/main.e84bf396.chunk.js",
+    "main.js.map": "/pz-intro-frontend/static/js/main.e84bf396.chunk.js.map",
+    "runtime-main.js": "/pz-intro-frontend/static/js/runtime-main.3375a887.js",
+    "runtime-main.js.map": "/pz-intro-frontend/static/js/runtime-main.3375a887.js.map",
+    "static/js/2.05806cee.chunk.js": "/pz-intro-frontend/static/js/2.05806cee.chunk.js",
+    "static/js/2.05806cee.chunk.js.map": "/pz-intro-frontend/static/js/2.05806cee.chunk.js.map",
+    "index.html": "/pz-intro-frontend/index.html",
+    "precache-manifest.a282f7da0e96b6e0e23baa135805afcc.js": "/pz-intro-frontend/precache-manifest.a282f7da0e96b6e0e23baa135805afcc.js",
+    "service-worker.js": "/pz-intro-frontend/service-worker.js",
+    "static/css/main.e95a4c62.chunk.css.map": "/pz-intro-frontend/static/css/main.e95a4c62.chunk.css.map",
+    "static/js/2.05806cee.chunk.js.LICENSE.txt": "/pz-intro-frontend/static/js/2.05806cee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3375a887.js",
+    "static/js/2.05806cee.chunk.js",
+    "static/css/main.e95a4c62.chunk.css",
+    "static/js/main.e84bf396.chunk.js"
+  ]
+}
